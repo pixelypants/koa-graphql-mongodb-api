@@ -1,0 +1,13 @@
+{
+  "name": "koa-graphql-mongodb-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Hudson Graham",
+  "dependencies": {
+    "graphql": "^15.0.0",
+    "koa": "^2.11.0",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0"
+  }
+}
