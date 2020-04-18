@@ -9,8 +9,8 @@ const GadgetType = new GraphQLObjectType({
     name: { type: GraphQLNonNull(GraphQLString) },
     release_date: { type: GraphQLNonNull(GraphQLString) },
     by_company: { type: GraphQLNonNull(GraphQLString) },
-    price: { type: GraphQLNonNull(GraphQLString) }
-  })
+    price: { type: GraphQLNonNull(GraphQLString) },
+  }),
 });
 
 module.exports = GadgetType;
