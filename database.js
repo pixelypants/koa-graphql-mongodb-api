@@ -9,7 +9,7 @@ const initDB = () => {
   }
 
   mongoose.connect(
-    `mongodb+srv://koa-graphql:${process.env.MONGODB_PASS}@koa-graphql-cluster-g6ygk.mongodb.net/test?retryWrites=true&w=majority`,
+    `mongodb+srv://koa-graphql:${process.env.MONGODB_PASS}@koa-graphql-cluster-g6ygk.mongodb.net/koa-grphql-mongodb-api?retryWrites=true&w=majority`,
     { useNewUrlParser: true, useUnifiedTopology: true },
   );
   mongoose.connection.once('open', () => {
